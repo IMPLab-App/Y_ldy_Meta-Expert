@@ -1,0 +1,36 @@
+# Datasets and generated experiment artifacts
+data/
+logs/
+saved_models/
+config/_tmp_runs/
+
+# Model checkpoints, training logs, and runtime markers
+*.pth
+*.pt
+*.ckpt
+*.log
+*.pid
+*.logpath
+events.out.tfevents.*
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
